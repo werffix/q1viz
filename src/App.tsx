@@ -48,7 +48,7 @@ export default function App() {
         { text: "без белых списков", icon: Ban },
         { text: "безлимитный трафик", icon: Infinity },
       ],
-      link: "https://cabinet.q1se.ru/buy/basic",
+      link: "https://my.qone.su/buy/basic",
     },
     {
       name: "стандарт",
@@ -60,7 +60,7 @@ export default function App() {
         { text: "безлимитный трафик", icon: Infinity },
       ],
       popular: true,
-      link: "https://cabinet.q1se.ru/buy/standart",
+      link: "https://my.qone.su/buy/standart",
     },
     {
       name: "премиум",
@@ -71,7 +71,7 @@ export default function App() {
         { text: "200 гб на белые списки", icon: Database },
         { text: "безлимитный трафик", icon: Infinity },
       ],
-      link: "https://cabinet.q1se.ru/buy/premium",
+      link: "https://my.qone.su/buy/premium",
     }
   ];
 
@@ -92,7 +92,7 @@ export default function App() {
           <div className="text-xl font-medium tracking-tight">q1 vpn</div>
         </div>
         <div className="flex items-center gap-6">
-          <a href="https://cabinet.q1se.ru" className="text-sm text-neutral-500 hover:text-neutral-300 transition-colors cursor-pointer">кабинет</a>
+          <a href="https://my.qone.su" className="text-sm text-neutral-500 hover:text-neutral-300 transition-colors cursor-pointer">кабинет</a>
         </div>
       </nav>
 
@@ -349,7 +349,7 @@ export default function App() {
                   telegram бот
                 </a>
                 <a 
-                  href="https://cabinet.q1se.ru" 
+                  href="https://my.qone.su" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-full py-4 px-4 bg-neutral-100 text-neutral-950 font-medium rounded-xl hover:bg-white transition-colors text-center cursor-pointer"
