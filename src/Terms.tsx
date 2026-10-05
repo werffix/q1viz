@@ -4,17 +4,17 @@ export function Terms() {
   return (
     <Layout>
       <div className="max-w-3xl mx-auto px-6 py-24 w-full">
-        <h1 className="text-3xl font-medium mb-4 tracking-tight">Публичная оферта</h1>
-        <p className="text-neutral-400 mb-12">
+        <h1 className="text-3xl font-medium mb-3 tracking-tight text-neutral-100">Публичная оферта</h1>
+        <p className="text-neutral-400 text-sm mb-10 leading-relaxed">
           Дата вступления в силу: 1 августа 2026 года. Документ фиксирует базовые правила использования сервиса q1 vpn, оплаты и ограничения доступа.
         </p>
 
-        <div className="prose prose-invert prose-neutral max-w-none text-neutral-300 space-y-6">
+        <div className="text-sm text-neutral-300 space-y-6 leading-relaxed">
           <p>
-            Используя сайт, Telegram-бота, оформляя подписку или оплачивая доступ к <strong>q1 vpn</strong>, пользователь подтверждает согласие с условиями настоящего Соглашения.
+            Используя сайт, Telegram-бота, оформляя подписку или оплачивая доступ к <strong className="font-medium text-neutral-100">q1 vpn</strong>, пользователь подтверждает согласие с условиями настоящего Соглашения.
           </p>
 
-          <h2 className="text-xl text-neutral-100 font-medium mt-10 mb-4">1. О сервисе</h2>
+          <h2 className="text-lg text-neutral-100 font-medium mt-8 mb-3">1. О сервисе</h2>
           <p>
             q1 vpn предоставляет цифровой сервис VPN. Сайт носит информационный характер и ведет пользователя в Telegram-бота, где оформляется и используется доступ.
           </p>
@@ -22,7 +22,7 @@ export function Terms() {
             Параметры доступа, включая срок действия, лимит устройств, трафик и стоимость, определяются условиями выбранного предложения на момент оформления.
           </p>
 
-          <h2 className="text-xl text-neutral-100 font-medium mt-10 mb-4">2. Правила использования</h2>
+          <h2 className="text-lg text-neutral-100 font-medium mt-8 mb-3">2. Правила использования</h2>
           <p>Пользователь обязуется использовать сервис только в законных целях. Пользователю запрещается:</p>
           <ul className="list-disc pl-6 space-y-2 marker:text-neutral-600">
             <li>нарушать применимое законодательство;</li>
@@ -32,9 +32,9 @@ export function Terms() {
           </ul>
           <p>Пользователь самостоятельно несет ответственность за использование сервиса.</p>
 
-          <h2 className="text-xl text-neutral-100 font-medium mt-10 mb-4">3. Оплата и возвраты</h2>
+          <h2 className="text-lg text-neutral-100 font-medium mt-8 mb-3">3. Оплата и возвраты</h2>
           <p>
-            Оплата осуществляется через платежные системы в боте. В зависимости от доступности сервиса могут использоваться различные способы оплаты, включая <code className="bg-neutral-800 px-1.5 py-0.5 rounded text-neutral-200 text-sm">СБП</code> и криптовалюту.
+            Оплата осуществляется через платежные системы в боте. В зависимости от доступности сервиса могут использоваться различные способы оплаты, включая <code className="bg-neutral-800 px-1.5 py-0.5 rounded text-neutral-200 text-xs">СБП</code> и криптовалюту.
           </p>
           <p>
             Сервис предоставляет цифровую услугу нематериального характера. После предоставления доступа денежные средства не возвращаются, если иное не будет определено Администрацией в исключительном порядке.
@@ -43,7 +43,7 @@ export function Terms() {
             При возникновении вопросов по оплате пользователь вправе предварительно обратиться в поддержку сервиса.
           </p>
 
-          <h2 className="text-xl text-neutral-100 font-medium mt-10 mb-4">4. Ограничение доступа</h2>
+          <h2 className="text-lg text-neutral-100 font-medium mt-8 mb-3">4. Ограничение доступа</h2>
           <p>
             Администрация сервиса вправе ограничить или прекратить доступ без предварительного уведомления в случае:
           </p>
@@ -57,8 +57,8 @@ export function Terms() {
           </ul>
           <p>После окончания подписки доступ к VPN прекращается.</p>
 
-          <h2 className="text-xl text-neutral-100 font-medium mt-10 mb-4">5. Ответственность</h2>
-          <p>Сервис предоставляется на условиях <code className="bg-neutral-800 px-1.5 py-0.5 rounded text-neutral-200 text-sm">as is</code> и <code className="bg-neutral-800 px-1.5 py-0.5 rounded text-neutral-200 text-sm">as available</code>.</p>
+          <h2 className="text-lg text-neutral-100 font-medium mt-8 mb-3">5. Ответственность</h2>
+          <p>Сервис предоставляется на условиях <code className="bg-neutral-800 px-1.5 py-0.5 rounded text-neutral-200 text-xs">as is</code> и <code className="bg-neutral-800 px-1.5 py-0.5 rounded text-neutral-200 text-xs">as available</code>.</p>
           <p>
             Администрация не гарантирует бесперебойную работу сервиса, постоянную доступность во всех сетях и странах, а также соответствие сервиса ожиданиям пользователя.
           </p>
@@ -66,7 +66,7 @@ export function Terms() {
             Администрация не несет ответственности за сбои, ограничения, блокировки или убытки, возникшие из-за действий третьих лиц, провайдеров, платформ, платежных систем или самого пользователя.
           </p>
 
-          <h2 className="text-xl text-neutral-100 font-medium mt-10 mb-4">6. Данные и право</h2>
+          <h2 className="text-lg text-neutral-100 font-medium mt-8 mb-3">6. Данные и право</h2>
           <p>
             Порядок обработки данных определяется отдельной Политикой конфиденциальности q1 vpn.
           </p>
@@ -74,7 +74,7 @@ export function Terms() {
             Настоящее Соглашение составлено на русском языке и ориентировано в первую очередь на русскоязычную аудиторию. К отношениям сторон применяется право, подлежащее применению с учетом характера отношений и обязательных требований законодательства.
           </p>
 
-          <h2 className="text-xl text-neutral-100 font-medium mt-10 mb-4">7. Поддержка и изменения</h2>
+          <h2 className="text-lg text-neutral-100 font-medium mt-8 mb-3">7. Поддержка и изменения</h2>
           <p>
             По всем вопросам пользователь может обратиться в <a href="https://t.me/q1support_bot" target="_blank" rel="noreferrer" className="text-neutral-400 hover:text-neutral-200 transition-colors">поддержку</a>.
           </p>

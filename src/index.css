@@ -1,7 +1,23 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&family=Unbounded:wght@300;400;500;600;700&display=swap');
+
+@theme {
+  --font-sans: 'Golos Text', system-ui, -apple-system, sans-serif;
+  --font-unbounded: 'Unbounded', sans-serif;
+}
 
 @layer base {
   body {
-    @apply bg-neutral-950;
+    @apply bg-neutral-950 text-neutral-100;
+    font-family: 'Golos Text', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 }
+
+.font-unbounded {
+  font-family: 'Unbounded', sans-serif;
+}
+
+
+
