@@ -67,7 +67,7 @@ export const PRESET_THEMES: PresetTheme[] = [
       buttonTimerColor: "#FFFFFFFF",
       elipseColors: ["#2C2C2CFF", "#181818FF", "#383838FF"],
       backgroundImageType: "dark",
-      buttonImageType: "dark"
+      buttonImageType: "light"
     }
   },
   {
@@ -101,7 +101,7 @@ export const PRESET_THEMES: PresetTheme[] = [
       buttonTimerColor: "#FFFFFF",
       elipseColors: ["#3A3E4CFF", "#282B34FF", "#505668FF"],
       backgroundImageType: "dark",
-      buttonImageType: "dark"
+      buttonImageType: "light"
     }
   },
   {
@@ -169,7 +169,7 @@ export const PRESET_THEMES: PresetTheme[] = [
       buttonTimerColor: "#FFFFFF",
       elipseColors: ["#9CA3AFFF", "#6B7280FF", "#E5E7EBFF"],
       backgroundImageType: "dark",
-      buttonImageType: "dark"
+      buttonImageType: "light"
     }
   },
   {
@@ -577,7 +577,7 @@ export const PRESET_THEMES: PresetTheme[] = [
       buttonTimerColor: "#FFFFFF",
       elipseColors: ["#4B5563FF", "#374151FF", "#6B7280FF"],
       backgroundImageType: "dark",
-      buttonImageType: "dark"
+      buttonImageType: "light"
     }
   }
 ];
